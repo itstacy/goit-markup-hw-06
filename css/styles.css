@@ -20,7 +20,6 @@ a {
 img {
     display: block;
     max-width: 100%;
-    height: auto;
 }
 
 button {
@@ -545,14 +544,10 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: center;
-    text-transform: capitalize
+    text-transform: capitalize;
 }
 .team-member-one{
     background-color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
     border-radius: 0 0 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
             0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -624,6 +619,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     }
     .our-team-ul {
         gap: 24px;
+        flex-wrap: nowrap;
 
     }
     .third-section {
@@ -801,6 +797,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     line-height: 150%;
     color: #F4F4FD;
     margin-bottom: 72px ;
+    text-align: start;
 }
 @media screen and (min-width: 768px ) {
     .footer-description {
