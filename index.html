@@ -64,8 +64,8 @@
         </nav>
             <address class="sec-address">
                 <ul class="sec-address-link">
-                    <li class="sec-contact-link"><a class="sec-adr-comn" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-                    <li class="sec-contact-link"><a class="sec-adr-comn" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li class="sec-contact-link-phone"><a class="sec-adr-comn" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                    <li class="sec-contact-link-mail"><a class="sec-adr-comn-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                 </ul>
             </address>
             <ul class="sec-social-media-list">
@@ -165,7 +165,33 @@
                 <ul class="our-team-ul">
                     <!-- Член команди 1 -->
                      <li class="team-member-one">
-                        <img src="./images/team1.jpg" alt="Mark Guerrero" width="264" height="260">
+                        <picture>
+                            <source
+                              srcset="
+                                ./images/img-62.jpg    1x,
+                                ./images/img-63.jpg 2x
+                              "
+                              media="(min-width: 1158px)"
+                            />
+                            <source
+                              srcset="
+                                ./images/img-60.jpg    1x,
+                                ./images/img-61.jpg 2x
+                              "
+                              media="(min-width: 768px)"
+                            />
+                            <source
+                              srcset="
+                                ./images/img-58.jpg    1x,
+                                ./images/img-59.jpg  2x
+                              "
+                              media="(max-width: 767px)"
+                            />
+                            <img
+                              src="./images/img-7.jpg"
+                              alt="portfolio picture"
+                            />
+                          </picture>
                         <div class="team-box">
                             <h3 class="person">Mark Guerrero</h3>
                             <p class="descr">Product Designer</p>
@@ -204,7 +230,33 @@
         
                     <!-- Член команди 2 -->
                  <li class="team-member-one">
-                        <img src="./images/team2.jpg" alt="Tom Ford" width="264" height="260">
+                    <picture>
+                        <source
+                          srcset="
+                            ./images/img-56.jpg    1x,
+                            ./images/img-57.jpg 2x
+                          "
+                          media="(min-width: 1158px)"
+                        />
+                        <source
+                          srcset="
+                            ./images/img-54.jpg    1x,
+                            ./images/img-55.jpg 2x
+                          "
+                          media="(min-width: 768px)"
+                        />
+                        <source
+                          srcset="
+                            ./images/img-52.jpg    1x,
+                            ./images/img-53.jpg  2x
+                          "
+                          media="(max-width: 767px)"
+                        />
+                        <img
+                          src="./images/img-7.jpg"
+                          alt="portfolio picture"
+                        />
+                      </picture>
                         <div class="team-box">
                             <h3 class="person">Tom Ford</h3>
                             <p class="descr">Frontend Developer</p>
@@ -243,7 +295,33 @@
         
                     <!-- Член команди 3 -->
                  <li class="team-member-one">
-                        <img src="./images/team3.jpg" class="camila" alt="Camila Garcia" width="264" height="260">
+                    <picture>
+                        <source
+                          srcset="
+                            ./images/img-44.jpg    1x,
+                            ./images/img-45.jpg 2x
+                          "
+                          media="(min-width: 1158px)"
+                        />
+                        <source
+                          srcset="
+                            ./images/img-42.jpg    1x,
+                            ./images/img-43.jpg 2x
+                          "
+                          media="(min-width: 768px)"
+                        />
+                        <source
+                          srcset="
+                            ./images/img-40.jpg    1x,
+                            ./images/img-41.jpg  2x
+                          "
+                          media="(max-width: 767px)"
+                        />
+                        <img
+                          src="./images/img-7.jpg"
+                          alt="portfolio picture"
+                        />
+                      </picture>
                         <div class="team-box">
                             <h3 class="person">Camila Garcia</h3>
                             <p class="descr">Marketing</p>
@@ -282,7 +360,33 @@
         
                     <!-- Член команди 4 -->
                  <li class="team-member-one">
-                        <img src="./images/team4.jpg" alt="Daniel Wilson" width="264" height="260">
+                    <picture>
+                        <source
+                          srcset="
+                            ./images/img-50.jpg    1x,
+                            ./images/img-51.jpg 2x
+                          "
+                          media="(min-width: 1158px)"
+                        />
+                        <source
+                          srcset="
+                            ./images/img-48.jpg    1x,
+                            ./images/img-49.jpg 2x
+                          "
+                          media="(min-width: 768px)"
+                        />
+                        <source
+                          srcset="
+                            ./images/img-46.jpg    1x,
+                            ./images/img-47.jpg  2x
+                          "
+                          media="(max-width: 767px)"
+                        />
+                        <img
+                          src="./images/img-7.jpg"
+                          alt="portfolio picture"
+                        />
+                      </picture>
                         <div class="team-box">
                             <h3 class="person">Daniel Wilson</h3>
                             <p class="descr">UI Designer</p>
@@ -367,7 +471,33 @@
                     <!-- Другий елемент -->
                    <li class="portfolio-item">
                         <div class="image-container">
-                            <img src="./images/homework2.jpg" alt="Cashless Payment" width="360" height="300">
+                            <picture>
+                                <source
+                                  srcset="
+                                    ./images/img-26.jpg    1x,
+                                    ./images/img-27.jpg 2x
+                                  "
+                                  media="(min-width: 1158px)"
+                                />
+                                <source
+                                  srcset="
+                                    ./images/img-24.jpg    1x,
+                                    ./images/img-25.jpg 2x
+                                  "
+                                  media="(min-width: 768px)"
+                                />
+                                <source
+                                  srcset="
+                                    ./images/img-22.jpg    1x,
+                                    ./images/img-23.jpg  2x
+                                  "
+                                  media="(max-width: 767px)"
+                                />
+                                <img
+                                  src="./images/img-7.jpg"
+                                  alt="portfolio picture"
+                                />
+                              </picture>
                             <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                         </div>
                         <div class="info-box">
@@ -378,7 +508,33 @@
                     <!-- Третій елемент -->
                     <li class="portfolio-item">
                         <div class="image-container">
-                            <img src="./images/homework3.jpg" alt="Meditation App" width="360" height="300">
+                            <picture>
+                                <source
+                                  srcset="
+                                    ./images/img-32.jpg    1x,
+                                    ./images/img-33.jpg 2x
+                                  "
+                                  media="(min-width: 1158px)"
+                                />
+                                <source
+                                  srcset="
+                                    ./images/img-30.jpg    1x,
+                                    ./images/img-31.jpg 2x
+                                  "
+                                  media="(min-width: 768px)"
+                                />
+                                <source
+                                  srcset="
+                                    ./images/img-28.jpg    1x,
+                                    ./images/img-29.jpg  2x
+                                  "
+                                  media="(max-width: 767px)"
+                                />
+                                <img
+                                  src="./images/img-7.jpg"
+                                  alt="portfolio picture"
+                                />
+                              </picture>
                             <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                         </div>
                         <div class="info-box">
@@ -389,7 +545,33 @@
                     <!-- Четвертий елемент -->
                    <li class="portfolio-item">
                         <div class="image-container">
-                            <img src="./images/homework4.jpg" alt="Taxi Service" width="360" height="300">
+                            <picture>
+                                <source
+                                  srcset="
+                                    ./images/img-38.jpg    1x,
+                                    ./images/img-39.jpg 2x
+                                  "
+                                  media="(min-width: 1158px)"
+                                />
+                                <source
+                                  srcset="
+                                    ./images/img-36.jpg    1x,
+                                    ./images/img-37.jpg 2x
+                                  "
+                                  media="(min-width: 768px)"
+                                />
+                                <source
+                                  srcset="
+                                    ./images/img-34.jpg    1x,
+                                    ./images/img-35.jpg  2x
+                                  "
+                                  media="(max-width: 767px)"
+                                />
+                                <img
+                                  src="./images/img-7.jpg"
+                                  alt="portfolio picture"
+                                />
+                              </picture>
                             <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                         </div>
                         <div class="info-box">
@@ -533,7 +715,7 @@
     </footer>
     
      <!-- #endregion footer -->
-  <!--   <div class="backdrop is-open">
+ <!--    <div class="backdrop is-open">
         <div class="modal">
             <button type="button" class="modal-close-btn">
                 <svg class="close-icon" width="8" height="8">
