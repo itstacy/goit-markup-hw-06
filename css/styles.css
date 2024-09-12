@@ -111,7 +111,7 @@ button {
     }
     
     .menu-item {
-        margin-right: 40px; /* Відступ між пунктами меню */
+     /* Відступ між пунктами меню */
     }
     
     /* Псевдоелемент для підкреслення під першим пунктом меню */
@@ -207,6 +207,7 @@ button {
         background-position: center;
         background-size: cover;
         }
+
 
  
 @media (min-device-pixel-ratio: 2),
@@ -917,7 +918,12 @@ button {
 .container {
 }
 .footer-info {
-    margin-bottom: 72px ;
+    margin-bottom: 72px;
+}
+@media screen and (min-width: 768px ) {
+    .footer-info {
+        margin-bottom: 0;
+    }
 }
 @media screen and (min-width: 1158px ) {
     .footer-info {
@@ -1030,8 +1036,9 @@ button {
     color: #ffffff;
 }
 @media screen and (min-width: 768px ) {
-    .subscribe-name {
+    .email-name {
         width: 264px;
+        margin-bottom: 0;
         
     }
 }
@@ -1088,11 +1095,12 @@ button {
     background: #fcfcfc;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    padding: 72px 24px 24px 24px;
+    padding: 72px 16px 16px;
 }
 @media screen and (min-width: 768px ) {
     .modal {
         width: 408px;
+        padding: 72px 24px 24px;
     }
 }
 @media screen and (min-width: 1158px ) {
@@ -1244,6 +1252,7 @@ position: relative;
     border: 1px solid rgba(46, 47, 66, 0.4);
     fill: transparent;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    flex-shrink: 0;
 }
 .custom-label-user-checkbox {
     cursor: pointer;
@@ -1251,7 +1260,9 @@ position: relative;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color: #8e8f99;;
+    color: #8e8f99;
+    display: flex;
+    align-items: center;
 }
 .privacy-policy {
     text-decoration: underline;
